@@ -21,7 +21,7 @@ module Pod
       @string_replacements = {
         "PROJECT_OWNER" => @configurator.user_name,
         "TODAYS_DATE" => @configurator.date,
-        "TODAYS_YEAR" => @configurator.organization,
+        "TODAYS_YEAR" => @configurator.year,
         "PROJECT" => @configurator.pod_name,
         "CPD" => @prefix,
         "ORGANIZATION_NAME" => @configurator.organization
