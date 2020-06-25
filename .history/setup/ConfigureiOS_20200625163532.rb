@@ -53,17 +53,17 @@ module Pod
       #     end
       # end
 
-      prefix = nil
+      prefix = "GA"
 
-      loop do
-        prefix = configurator.ask("What is your class prefix").upcase
+      # loop do
+      #   prefix = configurator.ask("What is your class prefix").upcase
 
-        if prefix.include?(' ')
-          puts 'Your class prefix cannot contain spaces.'.red
-        else
-          break
-        end
-      end
+      #   if prefix.include?(' ')
+      #     puts 'Your class prefix cannot contain spaces.'.red
+      #   else
+      #     break
+      #   end
+      # end
 
       Pod::ProjectManipulator.new({
         :configurator => @configurator,
