@@ -53,7 +53,7 @@ module Pod
       #     end
       # end
 
-      prefix = "GA"
+      prefix = "JAD"
 
       # loop do
       #   prefix = configurator.ask("What is your class prefix").upcase
